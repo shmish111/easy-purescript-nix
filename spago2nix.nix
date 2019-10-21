@@ -2,10 +2,10 @@
 
 import (
   pkgs.fetchFromGitHub {
-    owner = "justinwoo";
+    owner = "shmish111";
     repo = "spago2nix";
-    rev = "ff6197f08125a82e722303c05aa7b93492a225b3";
-    sha256 = "1k1ib5zascl8zzfq0djwg24q7f6742gb6pcdfq52a3icxjch3178";
+    rev = "e6c160500c8951ded17e66d40a4a2c55888bbe1a";
+    sha256 = "0yiw5a1aa2vlj51j0cdfb898yrdpsdx5c6mx9ibrifvkkn7hclgq";
   }
 ) {
   inherit pkgs;
